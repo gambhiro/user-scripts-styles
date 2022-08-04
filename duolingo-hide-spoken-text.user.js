@@ -9,7 +9,7 @@
 // @grant        GM_addStyle
 // @inject-into  content
 // @homepageURL  https://github.com/gambhiro/user-scripts-styles
-// @downloadURL  https://github.com/gambhiro/user-scripts-styles/raw/master/duolingo-hide-spoken-text.user.js
+// @downloadURL  https://github.com/gambhiro/user-scripts-styles/raw/main/duolingo-hide-spoken-text.user.js
 // ==/UserScript==
 
 // Detect Darklingo++

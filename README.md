@@ -12,11 +12,11 @@ Find more:
 
 ## Duolingo
 
-- Sync review sentences to Anki ([duolingo-sync-sentences-to-anki.user.js](https://github.com/gambhiro/user-scripts-styles/raw/master/duolingo-sync-sentences-to-anki.user.js))
+- Sync review sentences to Anki ([duolingo-sync-sentences-to-anki.user.js](https://github.com/gambhiro/user-scripts-styles/raw/main/duolingo-sync-sentences-to-anki.user.js))
 
-- Hide spoken text ([duolingo-hide-spoken-text.user.js](https://github.com/gambhiro/user-scripts-styles/raw/master/duolingo-hide-spoken-text.user.js))
+- Hide spoken text ([duolingo-hide-spoken-text.user.js](https://github.com/gambhiro/user-scripts-styles/raw/main/duolingo-hide-spoken-text.user.js))
 
-- Hide the Hideous Dancing Owl ([duolingo-hide-the-hideous-dancing-owl.user.css](https://github.com/gambhiro/user-scripts-styles/raw/master/duolingo-hide-the-hideous-dancing-owl.user.css))
+- Hide the Hideous Dancing Owl ([duolingo-hide-the-hideous-dancing-owl.user.css](https://github.com/gambhiro/user-scripts-styles/raw/main/duolingo-hide-the-hideous-dancing-owl.user.css))
 
 Also recommended:
 
@@ -25,7 +25,7 @@ Also recommended:
 
 ## YouTube
 
-- Custom personal tweaks ([youtube-tweaks.user.css](https://github.com/gambhiro/user-scripts-styles/raw/master/youtube-tweaks.user.css))
+- Custom personal tweaks ([youtube-tweaks.user.css](https://github.com/gambhiro/user-scripts-styles/raw/main/youtube-tweaks.user.css))
 
 Also recommended:
 

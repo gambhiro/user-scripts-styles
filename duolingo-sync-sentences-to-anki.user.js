@@ -9,7 +9,7 @@
 // @grant        none
 // @inject-into  content
 // @homepageURL  https://github.com/gambhiro/user-scripts-styles
-// @downloadURL  https://github.com/gambhiro/user-scripts-styles/raw/master/duolingo-sync-sentences-to-anki.user.js
+// @downloadURL  https://github.com/gambhiro/user-scripts-styles/raw/main/duolingo-sync-sentences-to-anki.user.js
 // ==/UserScript==
 
 /*
