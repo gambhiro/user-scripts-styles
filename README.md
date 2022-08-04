@@ -21,6 +21,7 @@ Find more:
 Also recommended:
 
 - [Darklingo++](https://userstyles.org/styles/169205/darklingo)
+- [Pull from Duolingo](https://ankiweb.net/shared/info/557761805)
 
 ## YouTube
 

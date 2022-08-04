@@ -219,7 +219,7 @@ async function collect_cards() {
 
     if (server_ok) {
         var n = await texts_sync_to_anki(texts);
-        msg = n + " sentences were synced to Anki (not including duplicates).\n\n";
+        msg = n + " sentences were synced to Anki (already existing notes are skipped).\n\n";
     }
 
     var result = texts_to_tsv_uniq(texts);
@@ -280,7 +280,7 @@ async function collect_story_sentences() {
 
     if (server_ok) {
         var n = await texts_sync_to_anki(texts, ["duolingo", "translate_me"]);
-        msg = n + " sentences were synced to Anki (not including duplicates).\n\n";
+        msg = n + " sentences were synced to Anki (already existing notes are skipped).\n\n";
     }
 
     var result = texts_to_tsv_uniq(texts);
