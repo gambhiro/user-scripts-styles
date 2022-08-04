@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Duolingo: Sync review sentences to Anki
-// @description  Sync translation exercise 'Write in Italian/etc.' sentences to Anki
+// @description  Sync translation exercise 'Write in Italian/etc.' sentences to Anki.
 // @version      1.0.0
 // @author       gambhiro
 // @license      unlicense
