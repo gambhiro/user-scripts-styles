@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           youtube tweaks
+@description    Custom personal tweaks
+@version        1.0.0
+@author         gambhiro
+@license        unlicense
+@namespace      github.com/openstyles/stylus
+@homepageURL    https://github.com/gambhiro/user-scripts-styles
+@updateURL      https://github.com/gambhiro/user-scripts-styles/raw/master/youtube-tweaks.user.css
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+
+/* Hide side drawer  */
+/*
+#guide { display: none !important; }
+#page-manager { margin-left: 0; }
+*/
+
+/* Hide search suggestions */
+.gstl_50.sbdd_a { display: none !important; }
+
+/* Hide top bar tags chips */
+#chips-wrapper { display: none !important; }
+
+}
