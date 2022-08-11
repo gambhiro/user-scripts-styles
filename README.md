@@ -22,15 +22,17 @@ Sync translation exercise 'Write in Italian/etc.' sentences to Anki.
 
 - [duolingo-sync-sentences-to-anki.user.js](https://github.com/gambhiro/user-scripts-styles/raw/main/duolingo-sync-sentences-to-anki.user.js)
 
-At the end of a Duolingo lesson, this script will extract the translation
-exercise 'Write in Italian/etc.' sentences from the review scoreboard, and
-sync them to Anki. The AnkiConnect plugin has to be installed in Anki.
+This script will extract translation exercises ('Write in Italian/etc.') on
+Duolingo and sync them to Anki. The AnkiConnect plugin has to be installed in
+Anki.
 
 If Anki is not open, a TSV (tab seperated values) list is shown.
 
 The ANKI_DECK variable specifies the deck.
 
 The AUTO_SYNC variable enables/disables auto-sync at the end of a lesson.
+
+The NOTIFY variable enables/disables sync notifications.
 
 For stories, syncing has to be triggered with the keybinding below. It works
 even at the beginning of a story, one doesn't have to wait until the last
