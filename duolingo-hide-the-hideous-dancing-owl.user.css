@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Duolingo: Hide the Hideous Dancing Owl
 @description  Hide the hideous dancing owl, infantile animated figures, distracting leader board, friends and other annoying stuff on duolingo.com
-@version      1.0.0
+@version      1.0.1
 @author       gambhiro
 @license      unlicense
 @namespace    https://github.com/openstyles/stylus/
@@ -13,30 +13,48 @@
 
 /* Hide the hideous dancing owl */
 ._2EDJJ ._3a8EI._1S4zC, /* lesson loading page */
+._1Xlh1 ._3a8EI._1S4zC, /* story loading page */
 ._1Xlh1 .GMVb4, /* lesson completed page */
-._1Xlh1 ._3a8EI._2IFQ2, /* hard exercise */
-._1Xlh1 ._3a8EI._3r-Tl /* Perfect! page */
-     { display: none !important; }
-
-/* Hide the infantile animated figures */
-._1Xlh1 .e4VJZ.FQpeZ[data-test="challenge challenge-translate"] div.F2B9m span._3a8EI._1n2tS._1RL1c
+._1Xlh1 ._3a8EI._2IFQ2, /* hard exercise owl */
+._1Xlh1 .nohr8, /* hard exercise inane comment */
+._1Xlh1 ._3a8EI._3r-Tl /* Perfect! page owl */
      { display: none !important; }
 
 /* Keep the loading page transition dark. Use transparent instead of
  * rgb(32, 32, 32), so that it works without Darklingo++ as well. */
 ._3IvEG { background-color: transparent; }
 
+/* Perfect! page side gradient */
+._1Xlh1 ._3plTW { background: none; }
+
+/* Hide the infantile animated figures */
+._1Xlh1 div.F2B9m span._3a8EI._1n2tS._1RL1c
+     { display: none !important; }
+
 /* Hide DuoPlus icons */
 ._3ZJK8[data-test=skill-tree] ._1ii1y.np6Tv
      { display: none !important; }
 
+/* The whole sidebar */
+._3W86r ._1YfQ8._1FaGz
+     { display: none !important; }
+
 ._3W86r ._1_p4S._3Gj5_, /* League leader board */
+._1Xlh1 ._1_p4S._3Gj5_,
+._3W86r ._1_p4S._3ZuGY,
+._1Xlh1 ._1_p4S._3ZuGY,
 /* ._3W86r ._2O43A._3ZuGY, /\* XP Progress *\/ */
-/* ._3W86r .Yth9H._3ZuGY, /\* Next Achievement *\/ */
+/* ._1Xlh1 ._2O43A._3ZuGY, */
+._3W86r .Yth9H._3ZuGY, /* Next Achievement */
+._1Xlh1 .Yth9H._3ZuGY,
 ._3W86r ._3Gj5_, /* Friends list */
+._1Xlh1 ._3Gj5_,
 ._3W86r ._3Gj5_, /* Follow Duolingo */
-._3W86r ._1UOwI._3bfsh, /* Ads on /learn */
+._1Xlh1 ._3Gj5_,
+._3W86r ._3bfsh, /* Ads on /learn */
+._1Xlh1 ._3bfsh,
 ._3x0ok ._39CMQ, /* Ads on /skill */
+._1Xlh1 .SQR8J.wm1bO,
 div[aria-hidden=true]
      { display: none !important; }
 
